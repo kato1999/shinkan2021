@@ -1,0 +1,73 @@
+body{
+    background-image:url("../../background.jpg");
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0;
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+.colam{
+    text-align:left;
+}
+
+
+/* フォーム部分のデザイン */
+.formrun{
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px; 
+    max-width: 95%;
+}
+
+textarea{
+    resize: auto;
+    width:90%;
+    height: 200px;
+}
+
+.red{
+    color:red;
+}
+
+.question{
+    margin-bottom: 2em;
+}
+
+/* 送信後のページ */
+.mssg{
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}
+
+@media only screen and (min-width: 600px){
+    
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    .colam{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+

@@ -1,0 +1,62 @@
+body{
+    background-image:url("../background.jpg");
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0;
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    text-align:left;
+    background-color:orange;
+}
+
+.sub_title{
+    color: #FF0000;
+    font-size: 20px; 
+    margin-bottom: 15px;
+}
+
+.bdy{
+    text-align: left;
+    margin: 0 5%;
+}
+
+.colam{
+    text-align:left;
+}
+
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}
+
+@media only screen and (min-width: 600px){
+    
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    .colam{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+

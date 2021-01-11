@@ -1,0 +1,107 @@
+body{
+    background-image: url("background.jpg");
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+#content{
+    text-align: left;
+    margin: 0px 15px;
+}
+
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0;
+}
+
+
+div.box {
+    width:100%;
+    height:100px;
+    overflow:auto;
+    background-color:#FFF;
+    border:1.5px #000000 solid;
+    text-align: left;
+}
+
+div.box p {
+margin:1em 8px;
+}
+
+.contents {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.block{
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000080;
+    border: solid 3px #000080;
+    border-radius: 10px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links a {
+    display: block;
+    height: 1.5em;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.twitter-timeline{
+    text-align: center;
+    
+}
+
+.alrt{
+    text-align: left;
+    font-size: 15px;
+    padding:10px;
+    margin: 10px 10px 10px 5px;
+}
+
+.sc{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 400px){
+    .mail{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    .title{
+        font-size: 30px;
+        font-weight: bold;
+        color: #0e00b0
+    }
+}

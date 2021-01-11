@@ -1,0 +1,66 @@
+body{
+    background-image:url("../background.jpg");
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0;
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+#intoro{
+       text-align:left;
+       margin-left: 20px;
+}
+
+
+.block{
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000080;
+    border: solid 3px #000080;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.alrt{
+    font-size: 20px;
+}
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 600px){
+    #introduce{
+        margin-left: 1%;
+    }
+    
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+}

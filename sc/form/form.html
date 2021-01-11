@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112746834-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112746834-6');
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="2020年度名古屋大学新入生のためのホームページ。" />
+  <meta name="keywords" content="しんかん,新歓,しんかんweb,しんかんWeb,名大,新入生,名古屋大学,Me~dia,Me-dia,学生委員会,SC" />
+  <title>質問ページ</title>
+  <link rel="stylesheet" href="../../css/foundation.css" />
+  <link rel="stylesheet" href="sinkanweb5-2.css" />
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+
+
+
+<body>
+  <a href="../../index.html"><img id="logo" src="../../logo.png" alt="ロゴ"></a>
+  <div class="large-centered columns">
+    <div id="header">質問ページ</div><br>
+
+    <div class="colam">
+      学生委員会について気になることをお気軽に聞いてください!<br>
+      学生委員会のメンバーがお答えします!<br>
+      例えば、「学生委員会ってどれくらいの頻度で活動しているの？」等どんなことでも質問してください!<br>
+    </div>
+
+    <!--form runを使用-->
+    <form class="formrun form" action="https://form.run/api/v1/r/suiu9r1ipfe2s2pp1jx7sx7x" method="post">
+      <!-- ↓自由に要素を追加・編集することができます -->
+      <div class="question">
+        <label>名前 <span class="red">[必須]</span></red></label><br>
+        <input name="名前" type="text" data-formrun-required>
+        <div class="red" data-formrun-show-if-error="名前">お名前を入力してください</div>
+      </div>
+
+      <div class="question">
+        <label>メールアドレス <span class="red">[必須]</span></label><br>
+        <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+        <div class="red" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+      </div>
+
+      <div class="question">
+        <label>学生委員会に聞きたいこと <span class="red">[必須]</span></label><br>
+        <textarea name="学生委員会に聞きたいこと" data-formrun-required></textarea>
+        <div class="red" data-formrun-show-if-error="学生委員会に聞きたいこと">「学生委員会に聞きたいこと」の欄に質問したいことを入力してください</div>
+      </div>
+
+      <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+    </form>
+
+
+
+    <div><a href="../../index.html">TOPに戻る</a></div>
+    <div class="row">
+
+      <p>Copyright (C) 2020 Nagoya University Co-op Student Committee.</p>
+      <p center>
+        <font size=2px><a href="../../policy/policy.html">プライバシーポリシー</a></font>
+      </p>
+
+    </div>
+  </div>
+</body>
+
+</html>
