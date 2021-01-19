@@ -46,8 +46,6 @@ margin:1em 8px;
     margin: 0.5em 0;
     font-weight: bold;
     color: #ffffff;
-    background-color: #000080;
-    border: solid 3px #000080;
     border-radius: 10px;
 }
 
@@ -83,6 +81,31 @@ a:hover{
 
 .sc{
     text-align: center;
+}
+
+.block2{
+    background-position: 50%;
+    font-size: 25px;
+    line-height: 100;
+}
+
+.block2:hover{
+    opacity: 0.7;
+}
+
+.shinkan-book{
+    background-image: url(./image/shinkan-book-black.jpg);
+    background-size: 350px auto;
+}
+
+.shinkan-project{
+    background-image: url(./image/shinkan-black.jpg);
+    background-size: auto 350px;
+}
+
+.sc-intro{
+    background-image: url(./image/izumi4-black.jpg);
+    background-size: 350px auto;
 }
 
 
