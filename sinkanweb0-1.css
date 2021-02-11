@@ -26,7 +26,7 @@ body{
 
 div.box {
     width:100%;
-    height:100px;
+    height:170px;
     overflow:auto;
     background-color:#FFF;
     border:1.5px #000000 solid;
@@ -118,7 +118,7 @@ a:hover{
 }
 
 .shinkan-book{
-    background-image: url(./image/shinkan-book-black.jpg);
+    background-image: url(./book/front_cover_black.jpg);
     background-size: 100% auto;
 }
 
@@ -134,7 +134,7 @@ a:hover{
 
 
 @media only screen and (max-width: 400px){
-    .mail{
+    .mail, .twitter_massage{
         text-align: left;
     }
 }
