@@ -83,6 +83,10 @@ a:hover{
     text-align: center;
 }
 
+.sc-p{
+    margin-bottom:0;
+}
+
 .block2{
     background-position: 50%;
     font-size: 25px;
