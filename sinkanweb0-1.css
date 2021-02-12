@@ -93,23 +93,47 @@ a:hover{
     line-height: 100;
 }
 
+@media screen and (max-width:640px){
+    .block2{
+        font-size: 10px;
+    }
+
+    .shinkan-book-list{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width:1024px){
+    .block2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1025px){
+    .block2{
+        font-size: 25px;
+    }
+}
+
+
 .block2:hover{
     opacity: 0.7;
 }
 
 .shinkan-book{
-    background-image: url(./image/shinkan-book-black.jpg);
-    background-size: 350px auto;
+    background-image: url(./book/front_cover_black.jpg);
+    background-size: 100% auto;
 }
 
 .shinkan-project{
     background-image: url(./image/shinkan-black.jpg);
-    background-size: auto 350px;
+    background-size: auto 100%;
 }
 
 .sc-intro{
     background-image: url(./image/izumi4-black.jpg);
-    background-size: 350px auto;
+    background-size: 100% auto;
 }
 
 
