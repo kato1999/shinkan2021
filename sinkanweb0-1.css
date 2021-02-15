@@ -117,7 +117,7 @@ a:hover{
 }
 
 
-.block2:hover{
+a .block2:hover{
     opacity: 0.7;
 }
 
