@@ -37,13 +37,14 @@ body{
     font-weight: bold;
     text-align:left;
     background-color:orange;
+    margin-bottom: 10px;
 }
 
 .adv{
     font-size: x-large;
-    text-align: left;
+    text-align: center;
     color: #FF0000;
-    font-weight: bold
+    font-weight: bold;
 }
 .sub_title{
     color: #FF0000;
@@ -52,6 +53,28 @@ body{
 
 .colam{
     text-align:left;
+    padding-bottom: 20px;
+}
+
+.center {
+    padding-bottom: 15px;
+    max-width: 100%;
+}
+
+.link {
+    margin-bottom: 30px;
+}
+
+.pic {
+    margin: 20px 10px;
+}
+
+.text {
+    margin-bottom: 3px;
+}
+
+.banner {
+    margin: 5px 5px 25px 5px;
 }
 
 #soudaimeeting{
@@ -92,6 +115,20 @@ body{
 div{
     background-color: rgba(255,255,255,0.8);
 }
+
+ul {
+    display:flex;
+    margin 0;
+    padding 0;
+    list-style-type: none;
+}
+
+li {
+    flex: 1 1;
+    margin-right: 25px;
+}
+
+
 
 @media only screen and (min-width: 600px){
     
