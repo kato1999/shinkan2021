@@ -3,7 +3,6 @@ body{
     margin-left:5%;
     margin-right:5%;
     width:90%;
-    text-align:center;
 }
 
 #header{
@@ -56,6 +55,31 @@ div{
     background-color: rgba(255,255,255,0.8);
 }
 
+.right {
+    float: right;
+    width: 50%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+iframe {
+    width: 320px;
+    height: 224px;
+}
+
+.content-video {
+    padding: 20px;
+}
+
+
 @media only screen and (min-width: 600px){
     
     body{
@@ -68,5 +92,21 @@ div{
         margin-left: 5%;
         margin-right: 5%;
     }
+
 }
+
+@media screen and (max-width : 767px) {
+    .left {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
 
