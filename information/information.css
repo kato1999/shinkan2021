@@ -55,17 +55,23 @@ div{
     background-color: rgba(255,255,255,0.8);
 }
 
+.question {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .right {
     float: right;
     width: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .left {
     float: left;
     width: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
 
 }
@@ -78,6 +84,7 @@ iframe {
 .content-video {
     padding: 20px;
 }
+
 
 
 @media only screen and (min-width: 600px){
@@ -93,19 +100,28 @@ iframe {
         margin-right: 5%;
     }
 
+    iframe {
+        width: 400px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width : 767px) {
     .left {
         float: none;
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .right {
         float: none;
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 280px;
+        height: 200px;
     }
 }
 
