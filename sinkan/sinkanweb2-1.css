@@ -51,6 +51,21 @@ a:hover{
     text-decoration: none;
 }
 
+.button {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list {
+    flex: 1 1 auto;
+    margin-right: 8px;
+}
+
+.list:last-of-type {
+    margin-right: 0;
+}
 
 @media only screen and (min-width: 600px){
     #introduce{
@@ -62,5 +77,6 @@ a:hover{
         margin-right:10%;
         width:80%;
     }
+
 
 }
