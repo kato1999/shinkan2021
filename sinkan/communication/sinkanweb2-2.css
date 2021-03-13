@@ -1,0 +1,97 @@
+﻿body{
+    background-image:url("../../background.jpg");
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+#logo_sinkan{
+    width:80%;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#explain1{
+    text-align:left;
+    margin-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+table.contents{
+    margin: 0 auto;
+    width: 94%;
+    max-width: 450px;
+}
+
+.cause{
+    text-decoration: underline;
+}
+
+.picture{
+    width:90%;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.explain{
+    min-width:70px;
+}
+
+.alrt{
+    font-size: 20px;
+    border:8px red solid;
+    padding:10px;
+}
+
+
+@media only screen and (min-width: 600px){
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    #header{
+        font-size: 30px;
+        font-weight: bold;
+        color: #0e00b0
+    }
+
+    #explain{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    table.contents{
+        margin: 0 auto;
+        width: 500px
+    }  
+
+    #explain1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    
+}
+
+
