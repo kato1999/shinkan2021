@@ -5,17 +5,14 @@ const project = document.getElementById("project")
 
 function matchHeight(){
     const block2 = document.getElementsByClassName("block2")
-    for(i=1;i<block2.length;i++){
-        const height = (block2[i].offsetWidth) + "px"
-        const line_height = (block2[i].offsetWidth) * 0.15 + "px"
-        const padding_top = (block2[i].offsetWidth) * 0.38+ "px"
-        block2[i].style.height = height
-        block2[i].style.lineHeight = line_height
-        block2[i].style.paddingTop = padding_top 
-    }
     const height = (block2[0].offsetWidth) + "px"
-    block2[0].style.height = height
-    block2[0].style.lineHeight = height 
+    console.log(height)
+    const lineHeight = height
+    console.log(lineHeight)
+    for(i=0;i<block2.length;i++){
+        block2[i].style.height = height
+        block2[i].style.lineHeight = lineHeight
+    }
 }
 
 function triangle(){
