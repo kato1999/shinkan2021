@@ -7,9 +7,10 @@ body{
 }
 
 #header{
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
-    color: #0e00b0
+    color: #0e00b0;
+    margin-bottom: 10px;
 }
 
 #logo{
@@ -53,9 +54,19 @@ div{
     min-width:70px;
 }
 
+.explain1 {
+    text-align: left;
+}
+
 .pic_explain{
     margin-top: -15px;
+    margin-bottom: 10px;
 }
+
+.link {
+    margin-bottom: 0;
+}
+
 
 @media only screen and (min-width: 600px){
     body{
