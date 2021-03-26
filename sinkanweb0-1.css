@@ -101,6 +101,10 @@ a:hover{
     border-radius: 10px;
 }
 
+.project-title{
+    font-size: 20px;
+}
+
 @media screen and (max-width:640px){
     .block2{
         font-size: 10px;
