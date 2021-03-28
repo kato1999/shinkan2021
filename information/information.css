@@ -85,7 +85,22 @@ iframe {
     padding: 20px;
 }
 
+.answer {
+    text-align: left;
+    margin-bottom: 20px;
+}
 
+.answer p{ 
+    margin: 5px 0 0 0;
+}
+
+.answer2 {
+    margin-top: 15px;
+}
+
+.question {
+    margin-top: 30px;
+}
 
 @media only screen and (min-width: 600px){
     
